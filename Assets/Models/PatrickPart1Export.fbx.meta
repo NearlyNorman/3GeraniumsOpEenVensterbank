@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: 64900023505530948a9b5c350ecfd37a
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -1940086534746038183
+    second: Patrick|root.001|Unreal Take|Base Layer
+  - first:
+      74: -3693365291619454381
+    second: Patrick|root.001|Unreal Take|Base Layer Retarget.001
+  - first:
+      74: -6963194989170800419
+    second: Patrick|root.001|Unreal Take|Base Layer Retarget.002
+  - first:
+      74: 3687683417353649707
+    second: Patrick|root.001|Unreal Take|Base Layer.001
+  - first:
+      74: -2866585360802393045
+    second: Patrick|root.001|Unreal Take|Base Layer.001 Retarget
+  - first:
+      74: 4191115671544720259
+    second: Patrick|root|Unreal Take|Base Layer
+  - first:
+      74: 8114391499040886117
+    second: Patrick|root.001|Unreal Take|Base Layer Retarget
+  - first:
+      74: 5207264207651057384
+    second: Patrick|root|Unreal Take|Base Layer.001
+  - first:
+      74: 745163052450161689
+    second: Patrick|root|Unreal Take|Base Layer.001 Retarget
+  - first:
+      74: -7312363254582596026
+    second: Patrick|root|Unreal Take|Base Layer.002
+  - first:
+      74: -3884781950917236950
+    second: Patrick|root|Unreal Take|Base Layer.002 Retarget
+  - first:
+      74: 7987408496305741578
+    second: Patrick|root|Unreal Take|Base Layer.003
+  - first:
+      74: -6317482601607522363
+    second: Patrick|root|Unreal Take|Base Layer.003 Retarget
+  - first:
+      74: 3853407045899505535
+    second: Patrick|root|Unreal Take|Base Layer.004
+  - first:
+      74: 2048721644179980194
+    second: Patrick|root|Unreal Take|Base Layer.004 Retarget
+  - first:
+      74: -1010501652444159001
+    second: Patrick|root|Unreal Take|Base Layer.005
+  - first:
+      74: -1236407696111636429
+    second: Patrick|root|Unreal Take|Base Layer.005 Retarget
+  - first:
+      74: 9028898159202142604
+    second: Patrick|root|Unreal Take|Base Layer.006
+  - first:
+      74: -7237720661356730122
+    second: Patrick|root|Unreal Take|Base Layer.006 Retarget
+  - first:
+      74: 1591802354709885819
+    second: Patrick|root|Unreal Take|Base Layer.007
+  - first:
+      74: 5877894350258462664
+    second: Patrick|root|Unreal Take|Base Layer.007 Retarget
+  - first:
+      74: 6168906071195080528
+    second: Patrick|root|Unreal Take|Base Layer.008
+  - first:
+      74: -644423614833126227
+    second: Patrick|root|Unreal Take|Base Layer.008 Retarget
+  - first:
+      74: -6141564732072331803
+    second: Patrick|root|Unreal Take|Base Layer.009
+  - first:
+      74: 6501154834019774501
+    second: Patrick|root|Unreal Take|Base Layer.009 Retarget
+  - first:
+      74: -1687676714346425327
+    second: Patrick|root|Unreal Take|Base Layer.010
+  - first:
+      74: -3165382780630421509
+    second: Patrick|root|Unreal Take|Base Layer.010 Retarget
+  - first:
+      74: -7330708002304142426
+    second: Patrick|root|Unreal Take|Base Layer.011
+  - first:
+      74: 1575864153029994312
+    second: Patrick|root|Unreal Take|Base Layer.011 Retarget
+  - first:
+      74: -3221736936865030749
+    second: Patrick|root|Unreal Take|Base Layer.012
+  - first:
+      74: 5080764484154943119
+    second: Patrick|root|Unreal Take|Base Layer.012 Retarget
+  - first:
+      74: -6586720848937767023
+    second: Patrick|root|Unreal Take|Base Layer.013
+  - first:
+      74: -7544908261276928017
+    second: Patrick|root|Unreal Take|Base Layer.013 Retarget
+  - first:
+      74: -8568020683147207135
+    second: Patrick|root|Unreal Take|Base Layer.014
+  - first:
+      74: 3074800505091102745
+    second: Patrick|root|Unreal Take|Base Layer.014 Retarget
+  - first:
+      74: -5237686776158199158
+    second: Patrick|root|Unreal Take|Base Layer.015
+  - first:
+      74: 266813024021185294
+    second: Patrick|root|Unreal Take|Base Layer.015 Retarget
+  - first:
+      74: -7829916200931398978
+    second: Patrick|root|Unreal Take|Base Layer.016
+  - first:
+      74: 1584482510113955740
+    second: Patrick|root|Unreal Take|Base Layer.016 Retarget
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blauw
+    second: {fileID: 2100000, guid: e2521674c7dbcc045a38c4f181dd2c47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Huid
+    second: {fileID: 2100000, guid: 5f4f023519925e349b8640f18d57631a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zwart
+    second: {fileID: 2100000, guid: b50174c2acd8172458f009702643ec3b, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
