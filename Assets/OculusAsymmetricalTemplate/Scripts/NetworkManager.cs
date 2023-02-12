@@ -17,7 +17,7 @@ namespace Networking.Pun2
 
         private void Awake()
         {
-            
+
             //Detects if running through a headset or not
             if (OVRPlugin.GetSystemHeadsetType() != OVRPlugin.SystemHeadset.None)
             {
@@ -92,9 +92,9 @@ namespace Networking.Pun2
                 PhotonNetwork.JoinRoom("Geraniums"); //Join a specific room - Callback OnJoinRoomFailed
             }
 
-           
-            
-            
+
+
+
 
             // PhotonNetwork.JoinRandomRoom(); // Join a random room - Callback OnJoinRandomRoomFailed
         }
@@ -104,7 +104,7 @@ namespace Networking.Pun2
             //Go to next scene after joining the room
             base.OnJoinedRoom();
             Debug.Log("Master: " + PhotonNetwork.IsMasterClient + " | Players In Room: " + PhotonNetwork.CurrentRoom.PlayerCount + " | RoomName: " + PhotonNetwork.CurrentRoom.Name + " Region: " + PhotonNetwork.CloudRegion);
-            
+
             SceneManager.LoadScene("Photon2Room"); //go to the room scene
         }
 
