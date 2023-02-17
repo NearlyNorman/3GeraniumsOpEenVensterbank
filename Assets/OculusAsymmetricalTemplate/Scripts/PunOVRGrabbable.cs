@@ -57,10 +57,10 @@ namespace Networking.Pun2
             }
         }
 
-        public Collider[] grabPoints
+        public Collider[] GrabPoints
         {
             get { return m_grabPoints; }
-            set { grabPoints = value; }
+            set { GrabPoints = value; }
         }
 
         virtual public void CustomGrabCollider(Collider[] collider)
