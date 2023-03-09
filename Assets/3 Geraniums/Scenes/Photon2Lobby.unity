@@ -531,7 +531,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 170046296}
         m_TargetAssemblyTypeName: Networking.Pun2.NetworkManager, Assembly-CSharp
-        m_MethodName: gazeDeSelected
+        m_MethodName: gazeDeselected
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

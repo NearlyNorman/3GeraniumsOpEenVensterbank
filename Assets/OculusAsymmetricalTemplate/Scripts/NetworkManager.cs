@@ -14,6 +14,7 @@ namespace Networking.Pun2
         bool triesToConnectToMaster = false;
         bool triesToConnectToRoom = false;
         bool vrMode;
+        bool gaze;
 
         private void Awake()
         {
@@ -28,6 +29,15 @@ namespace Networking.Pun2
 
         }
 
+        public void gazeSelected()
+        {
+            gaze = true;
+        }
+
+        public void gazeDeselected()
+        {
+            gaze = false;
+        }
 
         private void Update()
         {
@@ -35,7 +45,7 @@ namespace Networking.Pun2
             {
                 ConnectToMaster();
             }
-            if (PhotonNetwork.IsConnected && !triesToConnectToMaster && !triesToConnectToRoom)
+            if (PhotonNetwork.IsConnected && !triesToConnectToMaster && !triesToConnectToRoom && gaze)
             {
                 StartCoroutine(WaitFrameAndConnect());
             }
