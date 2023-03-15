@@ -6,6 +6,9 @@ ModelImporter:
   - first:
       74: -3999578356269874737
     second: Cube|CubeAction
+  - first:
+      74: 5334954315404344519
+    second: Cube|Cube|Cube|CubeAction
   externalObjects: {}
   materials:
     materialImportMode: 2
