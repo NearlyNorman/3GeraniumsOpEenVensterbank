@@ -862,6 +862,7 @@ MonoBehaviour:
   target: {fileID: 1483853833}
   smoothSpeed: 0.05
   offset: {x: 0, y: 0, z: 0}
+  time: 45
 --- !u!1001 &96247272
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19147,7 +19148,7 @@ PrefabInstance:
     - target: {fileID: 8625798336048710178, guid: 5957c35acc3da254eacb8292b0cf52fb,
         type: 3}
       propertyPath: m_SceneBindings.Array.size
-      value: 149
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 8625798336048710178, guid: 5957c35acc3da254eacb8292b0cf52fb,
         type: 3}
@@ -19669,7 +19670,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SceneBindings.Array.data[149].key
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -6596774759640307433, guid: 7a678081c9be50549b8c644d2e2966e3,
+        type: 2}
     - target: {fileID: 8625798336048710178, guid: 5957c35acc3da254eacb8292b0cf52fb,
         type: 3}
       propertyPath: m_SceneBindings.Array.data[150].key
@@ -20139,7 +20141,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SceneBindings.Array.data[149].value
       value: 
-      objectReference: {fileID: 1067931083}
+      objectReference: {fileID: 96247308}
     - target: {fileID: 8625798336048710178, guid: 5957c35acc3da254eacb8292b0cf52fb,
         type: 3}
       propertyPath: m_SceneBindings.Array.data[150].value
@@ -23141,6 +23143,70 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 96247272}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &96247303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8625798337178474963, guid: 5957c35acc3da254eacb8292b0cf52fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 96247272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &96247304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96247303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb521e17ba9ff540891adfa06e25c86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1516537946}
+  smoothSpeed: 0.006
+  offset: {x: 0, y: -1.2, z: 0}
+  time: 45
+--- !u!114 &96247305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96247303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 8dbb87ca8d5c08d4489336001b501670, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 96247304}
+          m_TargetAssemblyTypeName: CenterTransformScript, Assembly-CSharp
+          m_MethodName: moveToCenter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &96247308 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8625798337178474961, guid: 5957c35acc3da254eacb8292b0cf52fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 96247272}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96247303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &98900394 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6952974327095610500, guid: 3b87447a1cd34464bb2a732e9a55f9bc,
@@ -29293,12 +29359,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!4 &942466969 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5793267979791660110, guid: 0563def19b2c633449cc3561df1b9a3a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1607065639}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &951737793 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4788080426676306618, guid: b935ea0f59dae0b4594fdf45ae292338,
@@ -34395,51 +34455,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1516537947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!4 &1516537946 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 540999541117890022, guid: 3b87447a1cd34464bb2a732e9a55f9bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1754852335}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1516537942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fb521e17ba9ff540891adfa06e25c86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 942466969}
-  smoothSpeed: 0.006
-  offset: {x: 0, y: 0.4, z: 0}
---- !u!114 &1516537950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1516537942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Events:
-    m_Signals:
-    - {fileID: 11400000, guid: 8dbb87ca8d5c08d4489336001b501670, type: 2}
-    m_Events:
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1516537947}
-          m_TargetAssemblyTypeName: CenterTransformScript, Assembly-CSharp
-          m_MethodName: moveToCenter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1521360425 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5706222803484999086, guid: d7cb216ed2f9483489a25a96d59aa384,
@@ -37177,51 +37198,6 @@ MonoBehaviour:
   - {fileID: 1480693438}
   - {fileID: 540473994}
   - {fileID: 219104464}
---- !u!114 &1754852341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754852336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Events:
-    m_Signals:
-    - {fileID: 11400000, guid: 8dbb87ca8d5c08d4489336001b501670, type: 2}
-    m_Events:
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1754852342}
-          m_TargetAssemblyTypeName: CenterTransformScript, Assembly-CSharp
-          m_MethodName: moveToCenter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1754852342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754852336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fb521e17ba9ff540891adfa06e25c86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 942466969}
-  smoothSpeed: 0.006
-  offset: {x: 0, y: 0.4, z: 0}
 --- !u!4 &1754852343 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 540999541117890016, guid: 3b87447a1cd34464bb2a732e9a55f9bc,
