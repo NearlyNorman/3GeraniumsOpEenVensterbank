@@ -23747,7 +23747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e7507467fc230147993d15e17d7f61c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Object: 3
+  Object: 1
   Waterkoker: {fileID: 803316703}
   Vorkheftruck: {fileID: 1301528999}
   Koffietas: {fileID: 2124633391}
@@ -36775,7 +36775,7 @@ PrefabInstance:
     - target: {fileID: 142654198, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 71e1c44aa94ac244e9d599b546cb46e6,
+      objectReference: {fileID: 21300000, guid: 2c7210c351302364992235cf7c7ace60,
         type: 3}
     - target: {fileID: 212151771, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
       propertyPath: m_LocalScale.x
@@ -36789,6 +36789,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.744833
       objectReference: {fileID: 0}
+    - target: {fileID: 212151772, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fc6b02169d3562b49ba2c28843b8f631,
+        type: 3}
     - target: {fileID: 583763096, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.744833
@@ -36801,9 +36806,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.744833
       objectReference: {fileID: 0}
+    - target: {fileID: 583763097, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d1b384f26a2f15048bec97f88247181e,
+        type: 3}
     - target: {fileID: 712681577, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 712681578, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
       propertyPath: m_LocalScale.x
@@ -36817,6 +36827,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.744833
       objectReference: {fileID: 0}
+    - target: {fileID: 712681579, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 12eac349b3823a44f9fefca8534f4771,
+        type: 3}
     - target: {fileID: 990682302, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.744833
@@ -36829,6 +36844,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.744833
       objectReference: {fileID: 0}
+    - target: {fileID: 990682303, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c2211ad89bcfc3e459d30470dde96f90,
+        type: 3}
     - target: {fileID: 1179439045, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -36845,6 +36865,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.744833
       objectReference: {fileID: 0}
+    - target: {fileID: 1403889581, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9a21c07afb3df93449687629430d7a0b,
+        type: 3}
     - target: {fileID: 1493649406, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.744833
@@ -36857,6 +36882,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.744833
       objectReference: {fileID: 0}
+    - target: {fileID: 1493649407, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b9f77c569aac62d43b0359cece447530,
+        type: 3}
     - target: {fileID: 1514368795, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -36877,6 +36907,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.744833
       objectReference: {fileID: 0}
+    - target: {fileID: 1822214321, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 466cf8d67938c3049b8bbd8e611dd71d,
+        type: 3}
     - target: {fileID: 1834147047, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -36893,6 +36928,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.744833
       objectReference: {fileID: 0}
+    - target: {fileID: 1864537076, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 89b22f3cf316dec448cbfa7dc378570b,
+        type: 3}
     - target: {fileID: 1988754988, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.744833
@@ -36905,6 +36945,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.744833
       objectReference: {fileID: 0}
+    - target: {fileID: 1988754989, guid: 3b87447a1cd34464bb2a732e9a55f9bc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6417aace85c172049922588aa0ebbff8,
+        type: 3}
     - target: {fileID: 540999541106721828, guid: 3b87447a1cd34464bb2a732e9a55f9bc,
         type: 3}
       propertyPath: _trackingOriginType
@@ -37754,7 +37799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e7507467fc230147993d15e17d7f61c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Object: 3
+  Object: 1
   Waterkoker: {fileID: 1028372530}
   Vorkheftruck: {fileID: 676693969}
   Koffietas: {fileID: 1600104479}

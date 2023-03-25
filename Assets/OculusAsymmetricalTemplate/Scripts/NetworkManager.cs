@@ -15,6 +15,7 @@ namespace Networking.Pun2
         bool triesToConnectToRoom = false;
         bool vrMode;
         bool gaze;
+        bool english = false;
 
         private void Awake()
         {
@@ -29,14 +30,28 @@ namespace Networking.Pun2
 
         }
 
+        public void englishSelected()
+        {
+            english = true;
+            Debug.Log("Engels!");
+        }
+
+        public void englishdeselected()
+        {
+            english = false;
+            Debug.Log("Toch geen Engels!");
+        }
+
         public void gazeSelected()
         {
             gaze = true;
+            Debug.Log("Gaze is true");
         }
 
         public void gazeDeselected()
         {
             gaze = false;
+            Debug.Log("Gaze is nie true");
         }
 
         private void Update()
@@ -47,6 +62,7 @@ namespace Networking.Pun2
             }
             if (PhotonNetwork.IsConnected && !triesToConnectToMaster && !triesToConnectToRoom && gaze)
             {
+                Debug.Log("Ale hup");
                 StartCoroutine(WaitFrameAndConnect());
             }
         }
@@ -115,8 +131,22 @@ namespace Networking.Pun2
             base.OnJoinedRoom();
             Debug.Log("Master: " + PhotonNetwork.IsMasterClient + " | Players In Room: " + PhotonNetwork.CurrentRoom.PlayerCount + " | RoomName: " + PhotonNetwork.CurrentRoom.Name + " Region: " + PhotonNetwork.CloudRegion);
 
-            SceneManager.LoadScene("Photon2Room"); //go to the room scene
-        }
+
+            
+
+            if (english == true)
+            {
+                 Debug.Log("Engelse versie opstarten");
+                 SceneManager.LoadScene("Photon2RoomEnglish"); //go to the room scene
+            }
+
+            else if (english == false)
+            {
+                 Debug.Log("Nederlandse versie opstarten");
+                 SceneManager.LoadScene("Photon2RoomDutch"); //go to the room scene
+            }
+
+         }
 
         public override void OnJoinRandomFailed(short returnCode, string message)
         {
