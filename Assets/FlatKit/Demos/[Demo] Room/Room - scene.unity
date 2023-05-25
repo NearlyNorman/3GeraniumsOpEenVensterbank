@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5919447, g: 0.5623389, b: 0.5336046, a: 1}
+  m_IndirectSpecularColor: {r: 0.5919447, g: 0.5623389, b: 0.53360456, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1152,32 +1152,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388683673}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!21 &434497410
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/FogPlus
-  m_Shader: {fileID: 4800000, guid: 39ef0b8c9be96494d9f8b2f2c54a28c5, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!1 &489371008
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,23 +1313,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c5c09e69075a44ff49c146527e165b37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.70456505
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c5c09e69075a44ff49c146527e165b37, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: -0.70963943
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c5c09e69075a44ff49c146527e165b37, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000057601163
+      value: -0.000000057807473
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c5c09e69075a44ff49c146527e165b37, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000057601163
+      value: -0.000000057394107
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c5c09e69075a44ff49c146527e165b37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90.411
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c5c09e69075a44ff49c146527e165b37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1381,6 +1355,32 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 562740336}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &571993244
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/FogPlus
+  m_Shader: {fileID: 4800000, guid: 39ef0b8c9be96494d9f8b2f2c54a28c5, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1 &626906895
 GameObject:
   m_ObjectHideFlags: 0
@@ -1495,7 +1495,7 @@ MonoBehaviour:
   heightFogIntensity: 0.091
   useHeightFogOnSky: 1
   distanceHeightBlend: 0.791
-  material: {fileID: 434497410}
+  material: {fileID: 571993244}
 --- !u!81 &626906900
 AudioListener:
   m_ObjectHideFlags: 0

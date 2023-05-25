@@ -14,7 +14,7 @@ namespace Networking.Pun2
         bool triesToConnectToMaster = false;
         bool triesToConnectToRoom = false;
         bool vrMode;
-        bool gaze;
+        public bool gaze;
         bool english = false;
 
         private void Awake()
@@ -110,7 +110,7 @@ namespace Networking.Pun2
 
             if (!vrMode)
             {
-                PhotonNetwork.CreateRoom("Geraniums", new RoomOptions { MaxPlayers = 14 }); //Create a specific room - Callback OnCreateRoomFailed
+                PhotonNetwork.CreateRoom("Geraniums", new RoomOptions { MaxPlayers = 20 }); //Create a specific room - Callback OnCreateRoomFailed
 
             }
             else
@@ -130,8 +130,6 @@ namespace Networking.Pun2
             //Go to next scene after joining the room
             base.OnJoinedRoom();
             Debug.Log("Master: " + PhotonNetwork.IsMasterClient + " | Players In Room: " + PhotonNetwork.CurrentRoom.PlayerCount + " | RoomName: " + PhotonNetwork.CurrentRoom.Name + " Region: " + PhotonNetwork.CloudRegion);
-
-
             
 
             if (english == true)

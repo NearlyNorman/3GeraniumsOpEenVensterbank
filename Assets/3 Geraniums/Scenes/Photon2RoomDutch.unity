@@ -23747,7 +23747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e7507467fc230147993d15e17d7f61c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Object: 1
+  Object: 8
   Waterkoker: {fileID: 803316703}
   Vorkheftruck: {fileID: 1301528999}
   Koffietas: {fileID: 2124633391}
@@ -37799,7 +37799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e7507467fc230147993d15e17d7f61c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Object: 1
+  Object: 8
   Waterkoker: {fileID: 1028372530}
   Vorkheftruck: {fileID: 676693969}
   Koffietas: {fileID: 1600104479}

@@ -18,6 +18,7 @@ Material:
     RenderType: Opaque
   disabledShaderPasses:
   - SRPDEFAULTUNLIT
+  - Outline
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -69,7 +70,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
     m_Floats:
     - _AlphaClip: 0
     - _Blend: 0
@@ -148,7 +148,7 @@ Material:
     - _VertexColorsEnabled: 0
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.72156864, g: 0.77647066, b: 0.78823537, a: 1}
+    - _BaseColor: {r: 0.3428711, g: 0.5810395, b: 0.6320754, a: 1}
     - _Color: {r: 0.72156864, g: 0.77647066, b: 0.78823537, a: 1}
     - _ColorCelShadow: {r: 0.38581347, g: 0.38787434, b: 0.9622642, a: 1}
     - _ColorDim: {r: 0.57627267, g: 0.67596036, b: 0.6981132, a: 1}
