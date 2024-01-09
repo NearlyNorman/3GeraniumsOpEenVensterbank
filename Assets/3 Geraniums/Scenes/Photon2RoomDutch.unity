@@ -16113,7 +16113,7 @@ PrefabInstance:
     - target: {fileID: 6879991489861170159, guid: 5957c35acc3da254eacb8292b0cf52fb,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6879991489881087688, guid: 5957c35acc3da254eacb8292b0cf52fb,
         type: 3}
@@ -19263,12 +19263,12 @@ PrefabInstance:
     - target: {fileID: 8625798336048710178, guid: 5957c35acc3da254eacb8292b0cf52fb,
         type: 3}
       propertyPath: m_InitialState
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8625798336048710178, guid: 5957c35acc3da254eacb8292b0cf52fb,
         type: 3}
       propertyPath: m_SceneBindings.Array.size
-      value: 149
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 8625798336048710178, guid: 5957c35acc3da254eacb8292b0cf52fb,
         type: 3}
@@ -19790,7 +19790,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SceneBindings.Array.data[149].key
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -6596774759640307433, guid: 7a678081c9be50549b8c644d2e2966e3,
+        type: 2}
     - target: {fileID: 8625798336048710178, guid: 5957c35acc3da254eacb8292b0cf52fb,
         type: 3}
       propertyPath: m_SceneBindings.Array.data[150].key
@@ -20260,7 +20261,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SceneBindings.Array.data[149].value
       value: 
-      objectReference: {fileID: 1067931083}
+      objectReference: {fileID: 0}
     - target: {fileID: 8625798336048710178, guid: 5957c35acc3da254eacb8292b0cf52fb,
         type: 3}
       propertyPath: m_SceneBindings.Array.data[150].value
@@ -21113,7 +21114,7 @@ PrefabInstance:
     - target: {fileID: 8896179586515068662, guid: 5957c35acc3da254eacb8292b0cf52fb,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8896179586634902394, guid: 5957c35acc3da254eacb8292b0cf52fb,
         type: 3}
@@ -21138,7 +21139,7 @@ PrefabInstance:
     - target: {fileID: 8896179587565692114, guid: 5957c35acc3da254eacb8292b0cf52fb,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8896179587637050028, guid: 5957c35acc3da254eacb8292b0cf52fb,
         type: 3}
@@ -23747,7 +23748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e7507467fc230147993d15e17d7f61c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Object: 8
+  Object: 9
   Waterkoker: {fileID: 803316703}
   Vorkheftruck: {fileID: 1301528999}
   Koffietas: {fileID: 2124633391}
@@ -25731,7 +25732,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 944a76f04b413a844be39705f653f75c,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 944a76f04b413a844be39705f653f75c, type: 3}
@@ -37799,7 +37800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e7507467fc230147993d15e17d7f61c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Object: 8
+  Object: 9
   Waterkoker: {fileID: 1028372530}
   Vorkheftruck: {fileID: 676693969}
   Koffietas: {fileID: 1600104479}
